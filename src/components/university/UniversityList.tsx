@@ -395,7 +395,7 @@ function App() {
               {/* Image */}
               <div className="relative h-48 overflow-hidden">
                 <img 
-                  src={university.thumbnail_path ? `https://admin.mymbbsinvietnam.com/storage/${university.thumbnail_path}` : 'https://via.placeholder.com/800x400'} 
+                  src={university.thumbnail_path ? `https://admin.mbbsinvietnam.com/storage/${university.thumbnail_path}` : 'https://via.placeholder.com/800x400'} 
                   alt={university.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -631,7 +631,7 @@ function App() {
                               <div className="w-16 h-16 mx-auto mb-2 rounded-full overflow-hidden bg-white">
                                 {university?.thumbnail_path ? (
                                   <img 
-                                    src={`https://admin.mymbbsinvietnam.com/storage/${university.thumbnail_path}`}
+                                    src={`https://admin.mbbsinvietnam.com/storage/${university.thumbnail_path}`}
                                     alt={university?.name}
                                     className="w-full h-full object-cover"
                                   />

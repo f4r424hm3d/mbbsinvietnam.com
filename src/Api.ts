@@ -1,10 +1,10 @@
 // src/api.ts
 import axios from "axios";
 
-const API_BASE_URL = "https://admin.mymbbsinvietnam.com/api";
+const API_BASE_URL = "https://admin.mbbsinvietnam.com/api";
 const API_KEY = "4hm3df4r42";
 
-export const IMAGE_BASE_URL = "https://admin.mymbbsinvietnam.com/storage";
+export const IMAGE_BASE_URL = "https://admin.mbbsinvietnam.com/storage";
 
 // Axios instance
 const api = axios.create({
@@ -1547,7 +1547,7 @@ export const submitContactUs = async (params: ContactUsParams): Promise<ContactU
     
     try {
       const contactApi = axios.create({
-        baseURL: "https://admin.mymbbsinvietnam.com/api",
+        baseURL: "https://admin.mbbsinvietnam.com/api",
         headers: {
           "Content-Type": "application/json",
           "Accept": "application/json",
@@ -1730,7 +1730,7 @@ export interface OTPVerificationResponse {
 
 // Create a separate axios instance for the OTP verification endpoint
 const otpApi = axios.create({
-  baseURL: "https://admin.mymbbsinvietnam.com/api",
+  baseURL: "https://admin.mbbsinvietnam.com/api",
   headers: {
     "Content-Type": "application/json",
     "X-API-KEY": API_KEY,
