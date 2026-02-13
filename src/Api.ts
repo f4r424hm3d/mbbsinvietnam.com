@@ -4,7 +4,7 @@ import axios from "axios";
 const API_BASE_URL = "https://admin.mymbbsinvietnam.com/api";
 const API_KEY = "4hm3df4r42";
 
-export const IMAGE_BASE_URL = "https://kgadminpanel.tutelagestudy.com/storage";
+export const IMAGE_BASE_URL = "https://admin.mymbbsinvietnam.com/storage";
 
 // Axios instance
 const api = axios.create({
